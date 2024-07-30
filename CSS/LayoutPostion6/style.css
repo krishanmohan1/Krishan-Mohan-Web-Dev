@@ -1,0 +1,40 @@
+.parent{
+    background-color: rgba(122, 119, 119, 0.616);
+    width: 90%;
+    height: 500px;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+}
+.one{
+    background-color: red;
+    position: relative;
+    left: 200px;
+
+}
+.two{
+    background-color: burlywood;
+    position: absolute;
+    /* left: 100px; */
+    top: 400px;
+    right: 0px;
+    
+}
+.three{
+    background-color: teal;
+    position: fixed;
+    left: 100px;
+    top: 250px;
+    
+}
+.four{
+    background-color:black;
+    position: sticky;
+   top: 0px;
+    
+}
