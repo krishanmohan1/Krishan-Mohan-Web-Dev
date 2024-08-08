@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+}
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+} */
+
+
+/* .s{
+    background: crimson;
+     width: calc(100px + 100px);
+     height: calc(100px - 20px);
+     margin: calc(20px * 2);
+     border-radius: 20px calc(150px / 10) 40px 2px;
+     padding:calc(200px /10) ;
+} */
+
+.container{
+    background: red;
+}
