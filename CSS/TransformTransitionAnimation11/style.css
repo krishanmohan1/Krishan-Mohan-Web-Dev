@@ -1,0 +1,25 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+
+    /* Transform property */
+
+    /* transform: translateY(-100px); */
+    /* transform: translateX(100px); */
+     transform: rotate(60deg);
+     /* border-radius: 100px; */
+     /* transform: scale(2,0.5); */
+     /* transform: skew(-100px); */
+
+     
+}
+

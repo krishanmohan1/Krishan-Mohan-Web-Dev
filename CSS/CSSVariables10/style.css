@@ -1,0 +1,50 @@
+/* :root{
+    --primary-color:white;
+    --font-size:4rem;
+    --bg-color:red;
+    --padding:20px;
+
+
+}
+
+h1{
+    color:var(--primary-color);
+    background:var(--bg-color);
+    padding: var(--padding);
+
+}
+h2{
+    font-size: var(--font-size)
+} */
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/* BAD CODE   */
+/* BAD CODE   DRY  */
+
+.btn{
+    background: transparent;
+    border: none; 
+    margin: 10px;
+    background: rgb(6, 6, 6);
+    padding: 1em 2em;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.btn-secondary{
+    background: green;
+}
+
+
+
+
+
