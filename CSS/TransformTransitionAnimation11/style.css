@@ -15,11 +15,40 @@
 
     /* transform: translateY(-100px); */
     /* transform: translateX(100px); */
-     transform: rotate(60deg);
+     /* transform: rotate(60deg); */
      /* border-radius: 100px; */
      /* transform: scale(2,0.5); */
      /* transform: skew(-100px); */
 
-     
-}
+
+     }
+
+     .container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .container>a{
+        text-decoration: none;
+        border: 2px solid red;
+        padding: 10px 20px;
+        color: brown;
+
+        /* Transitioning Property */
+
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+
+     }
+
+     .container>a:hover{
+        background-color: brown;
+        color: white;
+
+
+     }
+
 
